@@ -1,0 +1,224 @@
+container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 491px) {
+    /*bigger-than-mobile media query*/
+    header {
+        width: 90%;
+    }
+    nav {
+        width: 90%;
+    }
+    .left {
+        float: left;
+        width: 48%
+    }
+    .right {
+        width: 50%;
+        margin-top: 6.5em;
+        float: right;
+    }
+    footer {
+        width: 90%;
+    }
+}
+
+
+/*close screen media query*/
+
+@media screen and (max-width: 491px) {
+    /*mobile media query*/
+    header {
+        width: 90%;
+    }
+    nav {
+        width: 90%;
+    }
+    #content {
+        width: 90%;
+    }
+    footer {
+        width: 90%;
+    }
+}
+
+
+/*close mobile screen media query*/
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+}
+
+h1 a {
+    font-family: Oregano, "Bookman Old Style", serif;
+    text-decoration: none;
+    color: #4CC6FF;
+    font-size: 2.375em;
+    /* 38px/16px */
+    font-weight: normal;
+}
+
+h1 img {
+    border: none;
+    margin: auto;
+}
+
+
+/* below is navigation CSS */
+
+nav ul li a {
+    padding-right: 2%;
+    /*15px*/
+    font-family: Oregano, "Bookman Old Style", serif;
+    text-decoration: none;
+    color: #4CC6FF;
+    font-size: 2.375em;
+}
+
+nav ul li {
+    display: inline;
+    /*puts nav in horizontal row*/
+}
+
+
+/*nav ul li a#last-child{
+border: none; gets rid of border-right after Resume
+}*/
+
+.selected {
+    color: #F2D7BE;
+}
+
+
+/* end navigation styling */
+
+#content {
+    background-color: #F2D7BE;
+    padding: 1% 2.5%;
+    /*10px and 20px*/
+    overflow: hidden;
+}
+
+h2 {
+    padding-left: 2.5%;
+    font-family: Oregano, "Bookman Old Style", serif;
+    font-size: 2.375em;
+    color: #00577F;
+}
+
+h3 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: Oregano, "Bookman Old Style", serif;
+    font-size: 1.5625em;
+    /* 25px/16px */
+    color: #00577F;
+}
+
+p {
+    font-family: "Bookman Old Style", serif;
+    font-size: 1.125em;
+    /* 18px/16px */
+}
+
+p a {
+    font-weight: bold;
+}
+
+p a:link {
+    color: #00577F;
+}
+
+
+/*unvisited link*/
+
+p a:visited {
+    color: #00577F;
+}
+
+
+/*visited link*/
+
+p a:hover {
+    color: #009FE8;
+}
+
+
+/*mouse over link*/
+
+p a:active {
+    color: #00577F;
+}
+
+
+/*selected link*/
+
+p a.desk:link {
+    color: #000000;
+}
+
+
+/*unvisited link*/
+
+p a.desk:visited {
+    color: #000000;
+}
+
+
+/*visited link*/
+
+p a.desk:hover {
+    color: #009FE8;
+}
+
+
+/*mouse over link*/
+
+p a.desk:active {
+    color: #000000;
+}
+
+
+/*selected link*/
+
+img {
+    border: 0.32em solid #00577F;
+}
+
+img#me {
+    height: 12em;
+    /*200px*/
+    float: right;
+    margin: 1% 0.5% 2% 2%;
+}
+
+p.sample {
+    font-family: "Bookman Old Style", serif;
+    font-size: 1em;
+    overflow: auto;
+}
+
+ul.resume {
+    list-style-type: none;
+}
+
+img.thumb {
+    width: 6em;
+    float: left;
+    margin: 2%;
+}
+
+footer p {
+    /*this controls footer text*/
+    font-size: 0.875em;
+    /* 14px/16px */
+    font-family: Oregano, "Bookman Old Style", serif;
+    color: #4CC6FF;
+    clear: both;
+}
